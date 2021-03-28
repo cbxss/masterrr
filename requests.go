@@ -45,6 +45,7 @@ func put(musicId string, autorization string ) {
 
 	res, err := client.Do(req)
 	if err != nil {
+		fmt.Println("Error!")
 		fmt.Println(err)
 		return
 	}
@@ -52,6 +53,7 @@ func put(musicId string, autorization string ) {
 
 	body, err := ioutil.ReadAll(res.Body)
 	if err != nil {
+		fmt.Println("Error!")
 		fmt.Println(err)
 		return
 	}
@@ -82,6 +84,7 @@ func get(musicId string, autorization string ) int {
 
 	res, err := client.Do(req)
 	if err != nil {
+		fmt.Println("Error!")
 		fmt.Println(err)
 		return 0
 	}
@@ -89,6 +92,7 @@ func get(musicId string, autorization string ) int {
 	decoder :=json.NewDecoder(res.Body)
 	err = decoder.Decode(&Rq1)
 	if err != nil {
+		fmt.Println("Error!")
 		fmt.Println(err)
 		return 0
 	}
