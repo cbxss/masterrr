@@ -15,7 +15,7 @@ Install `ffmpeg`.
 2. Upload this to soundcloud.
 3. Go the track and click Master.
 2. Copy the number after https://soundcloud.com/you/mastering/tracks/ in the site URL.
-3. Run the program and paste the number when promped. 
+3. Run the program and paste the number when prompted. 
 4. Chose the audio profile to download by typing the number next to it.
 
 Using the doubler.exe is needed as soundcloud's mastering API only allows half of the track to be mastered. 
