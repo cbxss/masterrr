@@ -7,6 +7,7 @@ Install `ffmpeg`.
 2. Refresh the page, and look for a network request that accesses  https://api-v2.soundcloud.com/
 3. Go to Headers -> Request Headers. 
 4. Copy what it says after Authorization: , and paste in .env file. 
+5. It should look something like AUTH=OAUTH 2-asdf-asdf-asdf
 
 ## Usage
 
